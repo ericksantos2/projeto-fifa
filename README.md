@@ -1,3 +1,1 @@
-Para executar o código, você precisa do nodejs.
-Após ter instalado o nodejs, execute o comando "npm run start"
-Pronto, a compilação do typescript será feita conforme você salva o arquivo.
+Se você deseja utilizar o código presente neste repositório do Github, será necessário ter o Node.js instalado em sua máquina. Uma vez que o Node.js esteja configurado, basta executar o comando "npm run start" para iniciar a compilação do Typescript. Assim que você salvar qualquer alteração no código, a compilação será realizada automaticamente, garantindo que você esteja sempre trabalhando com a versão mais atualizada do código. Com essa configuração simples, você poderá facilmente desenvolver e testar o código presente neste repositório, tornando o processo de colaboração e contribuição muito mais eficiente.
