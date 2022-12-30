@@ -5,3 +5,5 @@ Este repositório contém uma aplicação web para gerenciamento de jogadores de FIF
 Os arquivos app/adicionaLista.ts, app/cadastro.ts e app/contaMaior.ts são responsáveis por implementar as principais funcionalidades da aplicação, enquanto o arquivo app/main.ts é responsável por vincular essas funcionalidades à interface do usuário. O arquivo index.html é o arquivo principal da aplicação e contém a estrutura básica da interface do usuário.
 
 Esta aplicação foi desenvolvida usando o TypeScript, um superconjunto de JavaScript que adiciona tipagem estática e outras funcionalidades avançadas à linguagem. O código fonte da aplicação está disponível neste repositório e pode ser facilmente modificado ou adaptado para atender às necessidades específicas de cada usuário.
+
+Obs.: O código não está pronto, ainda falta algumas coisas.
