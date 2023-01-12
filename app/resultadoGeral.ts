@@ -64,7 +64,6 @@ export function geralHtml(lista: any[]): void {
                 filtro.local.innerHTML = `
                     <span>${filtro.nome}</span>: ${e.contador++}
                 `
-                // aqui é pra ver se vai adicionar um novo treco nas estatisticas gerais ou se vai alterar o número
             } else {
                 if (primeira[lugar]) {
                     tipoLugar.innerHTML = '';
@@ -74,7 +73,7 @@ export function geralHtml(lista: any[]): void {
                     <p><span>${e['nome']}</span>: ${e['contador']}</p>
                 `
             }
-        }) // cada negocio contado
+        })
     }
 }
 
