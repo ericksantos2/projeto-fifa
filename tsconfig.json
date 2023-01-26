@@ -1,9 +1,22 @@
 {
-    "compilerOptions": {
-        "outDir": "dist/js",
-        "target": "ES6",
-        "noEmitOnError": true,
-        "noImplicitAny": true
-    },
-    "include": ["app/**/*"]
+  "compilerOptions": {
+    "target": "ESNext",
+    "useDefineForClassFields": true,
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "allowJs": false,
+    "skipLibCheck": true,
+    "esModuleInterop": false,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "plugins": [{ "name": "typescript-plugin-css-modules"}]
+  },
+  "include": ["src"],
+  "references": [{ "path": "./tsconfig.node.json" }]
 }

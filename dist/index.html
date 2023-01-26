@@ -1,87 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto FIFA</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto FIFA | Versão React</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css" integrity="sha512-IJEbgDEF7OeKJRa0MY2PApnyJHRIsgzCveek4ec8VWQ+7KG3ZSKVNYa5xP/Gh0hVP0Mwb+gBsk+GwR3JQGhQNg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-    <main class="principal">
-        <div class="div__form--item">
-            <form class="formulario" data-formulario>
-                <label for="qualidade">Qualidade: </label>
-                <select name="qualidade" id="qualidade" data-qualidade required>
-                    <option value="Ouro">Ouro</option>
-                    <option value="Prata">Prata</option>
-                    <option value="Bronze">Bronze</option>
-                </select>
-                <label for="clube">Clube: </label>
-                <select name="clube" id="clube" data-clube required>
-
-                </select>
-                <label for="liga">Liga: </label>
-                <select name="liga" id="liga" data-liga required>
-
-                </select>
-                <label for="nacionalidade">Nacionalidade: </label>
-                <select name="nacionalidade" id="nacionalidade" data-nacionalidade required>
-
-                </select>
-                <input type="submit" value="Enviar">
-            </form>
-        </div>
-        <div class="div__form--cadastro">
-            <p>Cadastrar uma nova opção</p>
-            <form class="cadastro" data-cadastro>
-                <label for="cadastro-clube">Clube:</label>
-                <input type="text" id="cadastro-clube" data-cadastro-clube>
-                <label for="cadastro-liga">Liga:</label>
-                <input type="text" id="cadastro-liga" data-cadastro-liga>
-                <label for="cadastro-nacionalidade">Nacionalidade:</label>
-                <input type="text" id="cadastro-nacionalidade" data-cadastro-nacionalidade>
-                <input type="submit" value="Enviar">
-            </form>
-        </div>
-        <div class="div__resultado">
-            <div class="resultado__maior">
-                <p data-resultado-qualidade>Qualidade com mais jogadores: <span>Nenhuma por enquanto</span></p>
-                <p data-resultado-clube>Clube com mais jogadores: <span>Nenhum por enquanto</span></p>
-                <p data-resultado-liga>Liga com mais jogadores: <span>Nenhuma por enquanto</span></p>
-                <p data-resultado-nacionalidade>Nacionalidade com mais jogadores: <span>Nenhuma por enquanto</span></p>
-            </div>
-            <div class="resultado__geral">
-                <div class="geral__bloco">
-                    <p>Qualidade:</p>
-                    <div class="geral__estatistica" data-estatistica-qualidade>
-                        <p>Nenhum por enquanto</p>
-                    </div>
-                </div>
-                <div class="geral__bloco">
-                    <p>Clube:</p>
-                    <div class="geral__estatistica" data-estatistica-clube>
-                        <p>Nenhum por enquanto</p>
-                    </div>
-                </div>
-                <div class="geral__bloco">
-                    <p>Liga:</p>
-                    <div class="geral__estatistica" data-estatistica-liga>
-                        <p>Nenhum por enquanto</p>
-                    </div>
-                </div>
-                <div class="geral__bloco">
-                    <p>Nacionalidade:</p>
-                    <div class="geral__estatistica" data-estatistica-nacionalidade>
-                        <p>Nenhum por enquanto</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="div__cards" data-div-cards>
-        </div>
-    </main>
-    <script src="./js/main.js" type="module"></script>
-</body>
+    <script type="module" crossorigin src="/assets/index-4a3482c7.js"></script>
+    <link rel="stylesheet" href="/assets/index-cbb92836.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    
+  </body>
 </html>

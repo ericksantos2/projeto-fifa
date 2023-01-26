@@ -1,23 +1,24 @@
 {
-  "name": "refazendo-projeto-fifa",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "projeto-fifa-react",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "tsc -w"
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "host": "vite --host"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ericksantos2/projeto-fifa.git"
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ericksantos2/projeto-fifa/issues"
-  },
-  "homepage": "https://github.com/ericksantos2/projeto-fifa#readme",
   "devDependencies": {
-    "typescript": "^4.9.4"
+    "@types/react": "^18.0.26",
+    "@types/react-dom": "^18.0.9",
+    "@vitejs/plugin-react": "^3.0.0",
+    "typescript": "^4.9.3",
+    "typescript-plugin-css-modules": "^4.1.1",
+    "vite": "^4.0.0"
   }
 }

@@ -1,0 +1,17 @@
+.selecao {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  select {
+    border: none;
+    padding: 0.25rem 0.5rem;
+    border-radius: 5px;
+  }
+  select:hover {
+    transition: 0.5s;
+    background-color: #ffffff3f;
+  }
+  select option {
+    background-color: #3b3b3b;
+  }
+}
