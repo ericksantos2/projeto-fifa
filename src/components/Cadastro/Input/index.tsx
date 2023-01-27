@@ -21,7 +21,6 @@ export default function Input({ argumentos }: Props) {
         id={argumentos.input.id}
         value={argumentos.value[local].nome}
         onChange={argumentos.onChange}
-        required
       />
     </div>
   );
