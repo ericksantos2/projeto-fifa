@@ -1,0 +1,13 @@
+.inputDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+  input {
+    text-align: center;
+    border: none;
+    width: 80%;
+    padding: 0.33rem 10%;
+    border-radius: 5px;
+  }
+}

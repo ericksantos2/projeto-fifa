@@ -1,0 +1,29 @@
+{
+  "homepage": "https://ericksantos2.github.io/projeto-fifa",
+  "name": "projeto-fifa-react",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "host": "vite --host",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b react -d dist"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sass": "^1.57.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.26",
+    "@types/react-dom": "^18.0.9",
+    "@vitejs/plugin-react": "^3.0.0",
+    "gh-pages": "^5.0.0",
+    "typescript": "^4.9.3",
+    "typescript-plugin-css-modules": "^4.1.1",
+    "vite": "^4.0.0"
+  }
+}

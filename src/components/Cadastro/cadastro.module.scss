@@ -1,0 +1,29 @@
+.cadastro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 0.5rem;
+  .selects {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .botoes {
+    margin-top: 0.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  button {
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem 0;
+    width: 100%;
+    border: none;
+  }
+  button:hover {
+    transition: 1s;
+    background-color: #0000002d;
+  }
+}

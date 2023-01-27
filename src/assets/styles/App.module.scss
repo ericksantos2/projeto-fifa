@@ -1,0 +1,32 @@
+#formulario {
+  display: flex;
+  height: 50vh;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+#cadastro {
+  display: flex;
+  height: 50vh;
+  width: 50%;
+  justify-content: center;
+}
+
+#estatisticas {
+  display: flex;
+  flex-direction: row;
+  height: 30vh;
+  width: 100vw;
+  align-items: center;
+}
+
+#cards {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  gap: 2vw;
+  margin: 2vw 0;
+  flex-wrap: wrap;
+  padding: 0 10vw;
+}

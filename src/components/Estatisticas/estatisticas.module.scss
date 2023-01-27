@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+}
+
+h1 {
+  font-size: 18px;
+}
+
+.estatisticas {
+  width: calc(50% - 8vw);
+  display: flex;
+  justify-content: center;
+  margin: 0 4vw;
+  .tipoEstatistica {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    width: 25%;
+    align-items: center;
+    div {
+      display: flex;
+      justify-content: center;
+      gap: 0.33rem 0.5rem;
+      flex-wrap: wrap;
+      p {
+        background-color: #ffffff11;
+        padding: 0.125rem 0.5rem;
+        border-radius: 5px;
+      }
+    }
+  }
+}
