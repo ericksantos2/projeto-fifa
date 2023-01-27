@@ -96,18 +96,6 @@ export default function EstatisticasGerais({ jogadores }: Props) {
           );
         }
       })}
-      {/* <p>
-        Qualidade com mais jogadores: <span>Ouro</span>
-      </p>
-      <p>
-        Liga com mais jogadores: <span>BRA 1</span>
-      </p>
-      <p>
-        Clube com mais jogadores: <span>Palmeiras</span>
-      </p>
-      <p>
-        Nacionalidade com mais jogadores: <span>Brasileiro</span>
-      </p> */}
     </div>
   );
 }
