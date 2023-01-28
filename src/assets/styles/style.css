@@ -27,12 +27,12 @@ html * {
 
 @media (prefers-color-scheme: light) {
   :root {
-    --cor-fundo: #dadada;
+    --cor-fundo: #f0f0f2;
     --cor-fonte: #2f2f2f;
-    --cor-botao: #d1d1d1;
+    --cor-botao: #e2e2e2;
     --cor-botao-hover: #c8c8c8;
-    --cor-cards-fundo: #d2d2d2;
-    --cor-fundo-select: #e7e7e7;
+    --cor-cards-fundo: #e2e2e2;
+    --cor-fundo-select: #fff;
     --cor-select-hover: #e1e1e1;
   }
 }
