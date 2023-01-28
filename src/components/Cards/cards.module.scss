@@ -1,11 +1,10 @@
 .jogador {
-  background-color: #1a1a1aa9;
+  background-color: var(--cor-cards-fundo);
   padding: 0 1vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   height: 30vh;
-  // max-height: 30vh;
   text-align: center;
   gap: 0.5rem;
   border-radius: 1.5rem;
@@ -13,7 +12,7 @@
   line-height: 1.5rem;
   span {
     margin-left: 0.33rem;
-    background-color: #61616131;
+    background-color: var(--cor-fundo-select);
     border-radius: 0.6rem;
     padding: 0.25rem 0.5rem;
   }

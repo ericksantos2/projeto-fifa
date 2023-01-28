@@ -4,10 +4,15 @@
   justify-content: center;
   text-align: center;
   gap: 0.5rem;
+  width: 35%;
   .selects {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
+    width: 100%;
+    input {
+      width: 100%;
+    }
   }
   .botoes {
     margin-top: 0.25rem;
@@ -24,6 +29,6 @@
   }
   button:hover {
     transition: 1s;
-    background-color: #0000002d;
+    background-color: var(--cor-botao-hover);
   }
 }

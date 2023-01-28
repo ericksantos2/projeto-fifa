@@ -23,7 +23,7 @@ h1 {
       gap: 0.33rem 0.5rem;
       flex-wrap: wrap;
       p {
-        background-color: #ffffff11;
+        background-color: var(--cor-fundo-select);
         padding: 0.125rem 0.5rem;
         border-radius: 5px;
       }
