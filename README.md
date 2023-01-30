@@ -11,4 +11,4 @@ Para ajudar no cadastro dos jogadores, quando você já tiver cadastrado muitos 
 
 <h2>Como utilizar o projeto?</h2>
 
-Para utilizar o projeto, você pode utilizar esse <a href="https://ericksantos2.github.io/projeto-fifa">site</a>. Mas se você quiser rodar o projeto localmente, você precisará do nodejs instalado. Com o node instalado, abra a pasta do projeto no terminal/cmd e utilize o comando ```npm run dev``` para rodar o projeto localmente e ```npm run build``` para buildar o projeto.
+Para utilizar o projeto, você pode utilizar esse <a href="https://ericksantos2.github.io/projeto-fifa">site</a>. Mas se você quiser rodar o projeto localmente, você precisará do nodejs instalado. Com o node instalado, abra a pasta do projeto no terminal/cmd e utilize o comando ```npm install```, e depois use o comando ```npm run dev``` para rodar o projeto localmente e ```npm run build``` para buildar o projeto.
